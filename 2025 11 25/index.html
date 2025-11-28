@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>コーディング授業３</title>
+</head>
+<body>
+
+    <script>
+        var test = "これはJavaScript記述例です";
+        var test = "JavaScript";
+        test = "JavaScriptです";
+        console.log(test);
+
+        let test01 = "これはJavaScript記述例です";
+        test01 = "JavaScriptです";
+        console.log(test01);
+
+        const test02 = "これはJavaScript記述例です";
+        console.log(test02);
+
+        var test04 = "1+2";
+        console.log(test04)
+
+        var test05 = 1+2;
+        console.log(test05)
+
+        var test06 = true;
+        var test07 = false;
+
+        var array = ["みかん", "ぶどう","りんご"];
+        console.log(array[1]);
+        console.log(array.length);
+        array.push("もも");
+        console.log(array);
+
+        let num01 = 2;
+        if (num01 > 3) {
+            console.log("num01は3より大きい");
+        } else if (num01 > 0) {
+            console.log("num01は0より大きい")
+        } else {
+            console.log("num01は3より小さい");
+        }
+
+        let num02 = "2";
+        if (num02 == 2){
+            console.log("これは2です");
+        }
+
+        let num03 = 2;
+        if (num03 === 2){
+            console.log("これは数値型の2です");
+        }
+
+        let num04 = "2";
+        if (num04 != 2){
+            console.log("これは2ではありません");
+        }
+
+        let num05 = "2";
+        if (num05 !== 2){
+            console.log("これは数値型の2ではありません");
+        }
+
+        let num06 = 1;
+        while (num06 < 100){
+            num06 = num06 * 2;
+        }
+        console.log(num06);
+
+        let num07 = 0;
+        for (i = 0; i < 5; i++) {
+            num07 = num07 + 2;
+        }
+        console.log(num07);
+    </script>
+</body>
+</html>
