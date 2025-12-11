@@ -1,0 +1,226 @@
+@charset "utf-8";
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2.86%;
+    padding-right: 7.55%;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.logo{
+    width: 226px;
+}
+
+.header__nav ul{
+    display: flex;
+    gap: 70px;
+}
+
+.header__nav a{
+    color: #fff;
+    font-size: 18px;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium",
+    "游ゴシック", "Yu Gothic", sans-serif;
+    font-weight: bold;
+}
+
+body{
+    background-color: #e8d9bf;
+}
+
+main{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.matome1{
+    padding-top: 108px;
+    text-align: center;
+}
+
+.matome1sabu{
+    font-size: 30px;
+    padding-bottom: 65px;
+}
+
+.matome1taitoru{
+    font-size: 82px;
+    line-height: 1.17;
+    padding-bottom: 45px;
+}
+
+.matome1naiyo{
+    font-size: 23px;
+    line-height: 1.65;
+}
+
+.matome2{
+    display:flex ;
+    gap: 79px;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.matome2tate{
+    flex-direction: column;
+    padding-top: 149px;
+}
+.matome2syasinn{
+    width: 500px;
+    height: 560px;
+    padding-top: 93px;
+}
+
+.matome2aboutus{
+    width: 270px;
+    height: 77px;
+}
+
+.matome2taitoru{
+    font-size: 44px;
+    padding-bottom: 23px;
+    padding-top: 48px;
+    line-height: 1.39;
+}
+
+.matome2naiyou{
+    font-size: 16px;
+    line-height: 1.62;
+}
+
+.matome3{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 109px;
+}
+
+.matome3taitoru{
+    width: 151px;
+    height: 77px;
+    margin: 0 auto;
+}
+
+.matome3ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 49px;
+    padding-top: 50px;
+}
+
+.matome3syasinn{
+    width: 300px;
+    height: 200px;
+}
+
+.matome3naiyou{
+    font-size: 17px;
+    line-height: 1.47;
+    padding-top: 25px;
+}
+
+.matome3sabu{
+    color: #d30202;
+    font-size: 38px;
+    margin-top: -10px;
+    padding-left: 10px;
+}
+
+.matome4{
+    padding-top: 100px;
+}
+.matome4taitoru{
+    width: 245px;
+    height: 77px;
+    margin: 0 auto;
+}
+.matome4syasinn{
+    display: flex;
+    padding-top: 25px;
+}
+
+.matome5{
+    padding-top: 70px;
+}
+
+.matome5taitoru{
+    width: 173px;
+    height: 77px;
+    margin: 0 auto;
+}
+
+.matome5box{
+    width: 1000px;
+    height: 200px;
+    background-color: white;
+    border: 3px solid #4f260b;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.matome5ul{
+    padding-top: 40px;
+}
+
+.matome5naiyou{
+    font-size: 23px;
+    display: flex;
+        gap: 47px;
+        padding-left: 160px;
+        padding-bottom: 20px;
+}
+
+.matome6taitoru{
+    width: 213px;
+    height: 77px;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+iframe{
+    width: 100%;
+    height: 471px;
+    filter: grayscale(100%) invert(92%) contrast(83%);
+}
+
+.matome7taitoru{
+    width: 226px;
+    height: 50px;
+    padding-right: 70px;
+}
+
+.matome7{
+    padding-top: 82px;
+        background-color: white;
+    width: 100%;
+    height: 390px;
+}
+
+.matome7ul{
+    font-size: 20px;
+}
+
+.matome7box{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.matome7naiyou{
+    margin-bottom: 25px;
+}
+
+.matome7p{
+    margin-top: 85px;
+    margin-left: 125px;
+}
+
+.top{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 125px;
+}
