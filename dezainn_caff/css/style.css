@@ -14,6 +14,7 @@ html{
     width: 100%;
     top: 0;
     left: 0;
+    z-index: 99999;
 }
 
 .hamburger,
@@ -247,6 +248,17 @@ iframe{
     width: 125px;
 }
 
+.slick-dots {
+    bottom: 16px;
+}
+
+.slick-dots li button:before {
+    color: #fff;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #fff;
+}
 
 
 @media screen and (max-width: 1100px) {
@@ -331,4 +343,43 @@ iframe{
         align-items: center;
         gap: 10px;
     }
+
+    .matome1taitoru{
+        font-size: 70px;
+    }
+
+    .matome2taitoru{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .matome1sabu{
+        font-size: 17px;
+    }
+
+    .matome1taitoru{
+        font-size: 38px;
+    }
+
+    .matome1naiyo{
+        font-size: 16px;
+    }
+    .matome2{
+        flex-direction: column;
+    }
+
+    .matome2syasinn{
+        width: 100%;
+    }
+    .matome2syasinn img{
+        border-bottom-right-radius: 0;
+    }
+
+
+    .matome3ul{
+        flex-direction: column;
+    }
+
 }
