@@ -115,6 +115,7 @@
                 <img src="./images/mobile_gallery-100.jpg" alt="店内写真">
                 <img src="./images/pc_gallary_02-100.jpg" alt="店内天井写真">
                 <img src="./images/pc_gallary_01-100.jpg" alt="コーヒー写真">
+                <img src="./images/pc_gallary_01-100.jpg" alt="コーヒー写真">
             </div>
         </section>
 
@@ -179,7 +180,27 @@
                     autoplaySpeed: 2000,
                     dots:true
                 });
+
+                $('.matome4syasinn').slick({
+                 dots: false,
+                 infinite: true,
+                 autoplaySpeed:2000,
+                 speed: 300,
+                 slidesToShow: 5,
+                 slidesToScroll: 1,
+                 responsive: [
+                  {
+                   breakpoint: 375,
+                   settings: {
+                   slidesToShow: 1,
+                   slidesToScroll: 1
+                    }
+                  }
+                 ]
+                });
+				
             });
         </script>
+        
 </body>
 </html>
