@@ -69,7 +69,7 @@ main{
     line-height: 1.65;
 }
 
-.matome2{
+.matome2 .about-us-pc{
     display:flex ;
     margin: 0 auto;
     max-width: 1000px;
@@ -260,6 +260,15 @@ iframe{
     color: #fff;
 }
 
+.br_sp{
+    display: none;
+}
+
+.about-us-sp{
+    display: none;
+}
+
+
 
 @media screen and (max-width: 1100px) {
     .header__nav{
@@ -355,31 +364,168 @@ iframe{
 
 @media screen and (max-width: 768px) {
 
+    main{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .matome1{
+        padding-top: 40px;
+        margin-bottom: 70px;
+    }
     .matome1sabu{
         font-size: 17px;
+        padding-bottom: 40px;
     }
 
+    .br_sp{
+        display: block;
+    }
     .matome1taitoru{
         font-size: 38px;
+        padding-bottom: 20px;
     }
 
-    .matome1naiyo{
+    .matome1naiyou{
         font-size: 16px;
-    }
-    .matome2{
-        flex-direction: column;
+        line-height: 1.88;
     }
 
+    .matome2aboutus{
+        width: 160px;
+        height: 45px;
+        margin: 0 auto;
+    }
+    .matome3ul{
+        flex-direction: column;
+        padding-top: 20px;
+    }
+
+    .matome2 .about-us-pc{
+        display: none;
+    }
+    .about-us-sp{
+        display: block;
+    }
     .matome2syasinn{
         width: 100%;
     }
+    .matome2tate{
+        width: 100%;
+        padding-left: 0;
+    }
     .matome2syasinn img{
         border-bottom-right-radius: 0;
+        padding-top: 15px;
+    }
+    .matome2taitoru{
+        padding-top: 35px;
+        padding-left: 20px;
+        padding-bottom: 35px;
+        font-size: 36px;
+        line-height: 1.25;
     }
 
+    .matome2naiyou{
+        font-size: 16px;
+        line-height: 1.75;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 
-    .matome3ul{
+    .matome3{
+        padding-top: 60px;
+    }
+    .matome3taitoru {
+        width: 87px;
+        height: 45px;
+        margin: 0 auto;
+    }
+
+    .matome3syasinn{
+        margin: 0 auto;
+        width: 328px;
+        height: 219px;
+    }
+    .matome3naiyou{
+        padding-top: 35px;
+        font-size: 17px;
+        line-height: 1.59;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+    .matome3sabu{
+        padding-left: 47px;
+    }
+
+    .matome4{
+        padding-top: 95px;
+    }
+    .matome4taitoru{
+        width: 142px;
+        height: 45px;
+    }
+    .matome4syasinn{
+        padding-top: 20px;
+    }
+
+    .matome5{
+        padding-top: 35px;
+    }
+    .matome5taitoru{
+        width: 100px;
+        height: 45px;
+    }
+    .matome5box{
+        margin-top: 25px;
+        height: auto;
+        padding: 18px 7.16%;
+    }
+    .matome5naiyou{
         flex-direction: column;
+        gap: 7px;
+        font-size: 16px;
+    }
+    .matome5naiyou a {
+    text-decoration: underline #4f260b;
+    }
+    .matome5_sp{
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    .matome5 ul{
+        padding-top: 20px;
+    }
+    .matome6taitoru{
+        padding-top: 30px;
+        width: 125px;
+        height: 45px;
+    }
+
+    .matome7box{
+        flex-direction: column;
+    }
+    .top{
+        width: 100px;
+    }
+    .matome7{
+        padding-top: 45px;
+        padding-left: 20px;
+    }
+    .matome7naiyou{
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+    .matome7p{
+        margin-top: 45px;
+        margin-left: 85px;
+    }
+    .matome7taitoru img{
+        width: 226px;
+        height: 50px;
+    }
+    .matome7 ul{
+        padding-top: 35px;
     }
 
 }
