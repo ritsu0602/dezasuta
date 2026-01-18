@@ -469,7 +469,7 @@ iframe{
     }
 
     .matome5{
-        padding-top: 35px;
+        padding: 35px 10px 0;
     }
     .matome5taitoru{
         width: 100px;
@@ -498,8 +498,17 @@ iframe{
     }
     .matome6taitoru{
         padding-top: 30px;
-        width: 125px;
+        padding-bottom: 11px;
+    }
+
+    iframe{
+        height: 191px;
+    }
+    .matome6taitoru img{
+         width: 125px;
         height: 45px;
+        display: block;
+        margin: 0 auto;
     }
 
     .matome7box{
