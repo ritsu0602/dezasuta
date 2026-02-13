@@ -1,0 +1,569 @@
+@charset "UTF-8";
+body{
+    background-color: #0f1115;
+}
+
+.side-nav{
+    position: fixed;
+    top: 110px;
+    left: 56px;
+}
+
+.FV{
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.FV_1{
+    height: 600px;
+    width: 570px;
+    border: 3px solid #e6e6e6;
+    border-radius: 10px;
+}
+
+.noizu{
+    background-image:url(./asetto/1x/noizu.png);
+    margin: 0 auto;
+    width: 550px;
+    height: 425px;
+    margin-top:30px ;
+}
+
+.player-info1{
+    width: 550px;
+    height: 88px;
+    border: 1px solid #e6e6e6;
+    margin: 0 auto;
+    margin-top: 17px;
+    border-radius: 10px;
+}
+
+.player-info1 h1{
+    font-size: 20px;
+    margin-top: 16px;
+    margin-left: 10px;
+}
+
+.player-info1 p{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 10px;
+    color: #b8b8b8;
+}
+
+.nami{
+    background-image: url(./asetto/1x/nami.png);
+    width: 320px;
+    height: 19px;
+    margin: 0 auto;
+}
+
+.nami-box{
+    width: 330px;
+    height: 22px;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    margin-top: 9px;
+    margin-left: 7.6px;
+}
+
+
+.about{
+    background: url("./asetto/1x/about-haikei.png") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 927px;
+}
+
+.about-ka-do{
+    width: 1100px;
+    height: 660px;
+    display: flex;
+    background-color: #292c34E6;
+    border-radius: 20px;
+    box-shadow: 0 0 30px #ff3d8d;
+}
+
+.about-ka-do-left img{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #ff3d8d;
+  margin-top: 39px;
+  margin-left: 32px;
+}
+
+.about-ka-do-left p{
+  font-size: 25px;
+  padding-top: 45px;
+  padding-left: 128px;
+}
+
+.about-ka-do-right h2{
+  font-size: 55px;
+  padding-top: 103px;
+  padding-left: 55px;
+}
+
+.about-namae{
+    font-size: 30px;
+    padding-top: 55px;
+    padding-left: 55px;
+}
+
+.about-naiyou1{
+    font-size: 17px;
+    padding-top: 55px;
+    padding-left: 55px;
+    line-height: 1.76;
+}
+
+.about-naiyou2{
+    padding-top: 15px;
+    font-size: 17px;
+    padding-left: 55px;
+    line-height: 1.76;
+}
+
+.about-naiyou3{
+    padding-top: 15px;
+    font-size: 17px;
+    padding-left: 55px;
+    line-height: 1.76;
+}
+
+.btn{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 60px;
+  background: #e6e6e6;
+  color: #ff3d8d;
+  border-radius: 30px;
+  font-size: 20px;
+  margin-top: 36px;
+  margin-left: 450px;
+}
+
+
+.work-track{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    padding-top: 66px;
+}
+
+.work-taitoru{
+    font-size: 55px;
+    display: flex;
+    justify-content: center;
+    padding-top: 19px;
+}
+
+.work-btn{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 60px;
+  background: #e6e6e6;
+  color: #ff3d8d;
+  border-radius: 30px;
+  font-size: 20px;
+  margin-left: 980px;
+}
+
+
+.work-senn{
+    border: 2px solid #e6e6e6;
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 54px;
+}
+
+.work-ka-do1{
+  position: relative;
+  height: 480px;
+  width: 480px;
+  background: #292c34;
+  overflow: hidden;
+  margin-top: 62px;
+}
+
+.work-minitaitoru1{
+    font-size: 30px;
+    color: #ff3d8d;
+    padding-left: 33px;
+    padding-top: 29px;
+}
+
+.work-number1{
+    font-size: 75px;
+    padding-left: 389px;
+}
+
+.work-ka-do2{
+  position: relative;
+  height: 480px;
+  width: 480px;
+  background: #292c34;
+  overflow: hidden;
+  margin-left: 95px;
+  margin-top: 62px;
+}
+
+.work-minitaitoru2{
+    font-size: 30px;
+    color: #ff3d8d;
+    padding-left: 33px;
+    padding-top: 29px;
+}
+
+.work-number2{
+    font-size: 75px;
+    padding-left: 389px;
+}
+
+.work-ka-do3{
+  position: relative;
+  height: 480px;
+  width: 480px;
+  background: #292c34;
+  overflow: hidden;
+  margin-top: 62px;
+}
+
+.work-minitaitoru3{
+    font-size: 30px;
+    color: #ff3d8d;
+    padding-left: 33px;
+    padding-top: 29px;
+}
+
+.work-number3{
+    font-size: 75px;
+    padding-left: 389px;
+}
+
+.work-ka-do4{
+  position: relative;
+  height: 480px;
+  width: 480px;
+  background: #292c34;
+  overflow: hidden;
+  margin-left: 95px;
+  margin-top: 62px;
+}
+
+.work-minitaitoru4{
+    font-size: 30px;
+    color: #ff3d8d;
+    padding-left: 33px;
+    padding-top: 29px;
+}
+
+.work-number4{
+    font-size: 75px;
+    padding-left: 389px;
+}
+
+.work-sikaku{
+    display: inline-block;
+    width: 3px;
+    height: 16px;
+    background-color: #ff3d8d;
+    margin-right: 10px;
+    margin-left: 30px;
+}
+
+.zyaketto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.work-senn1{
+    border: 2px solid #e6e6e6;
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 62px;
+}
+
+.skills{
+    background: url(./asetto/1x/skills-haikei.png);
+    height: 987px;
+}
+
+.skills-track{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.skills-taitoru{
+    font-size: 55px;
+    display: flex;
+    justify-content: center;
+    padding-top: 19px;
+}
+
+.skills-naiyou{
+    display: flex;
+    justify-content: center;
+    gap: 170px;
+    margin-top: 78px;
+}
+
+.skills-minitaitoru{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.skills-setumei{
+    font-size: 17px;
+    line-height: 1.7;
+    padding-top: 38px;
+}
+
+.skills-mini{
+    font-size: 30px;
+    padding-left: 190px;
+    padding-top: 75px;
+}
+
+.skills-matome1{
+    display: flex;
+    gap: 29px;
+}
+
+.skills-box{
+    width: 340px;
+    height: 120px;
+    background-color: #292c34;
+    margin-top: 15px;
+    margin-left: 180px;
+    display: flex;
+}
+
+.skills-sikakuaikonn{
+    width: 81px;
+    height: 81px;
+    border: 1px solid #e6e6e6;
+    margin-left: 9px;
+    margin-top: 19.5px;
+}
+
+.skills-aikonn{
+    font-size: 38px;
+    color: #ed962f;
+    display: flex;
+    justify-content: center;
+    padding-top: 26px;
+}
+
+.skills-naiyou1{
+    font-size: 20px;
+    padding-top: 52px;
+    padding-left: 22px;
+}
+
+.skills-box2{
+    width: 340px;
+    height: 120px;
+    background-color: #292c34;
+    margin-top: 15px;
+    display: flex;
+}
+
+.skills-aikonn2{
+    font-size: 38px;
+    color: #0b74b8;
+    display: flex;
+    justify-content: center;
+    padding-top: 26px;
+}
+
+.skills-mini2{
+    font-size: 30px;
+    padding-left: 190px;
+    padding-top: 75px;
+}
+
+.skills-matome2{
+    display: flex;
+    gap: 29px;
+}
+
+.skills-box3{
+    width: 340px;
+    height: 120px;
+    background-color: #292c34;
+    margin-top: 15px;
+    margin-left: 180px;
+    display: flex;
+}
+
+.skills-box4{
+    width: 340px;
+    height: 120px;
+    background-color: #292c34;
+    margin-top: 15px;
+    display: flex;
+}
+
+.skills-box5{
+    width: 340px;
+    height: 120px;
+    background-color: #292c34;
+    margin-top: 15px;
+    display: flex;
+}
+
+
+.contact-track{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.contact-taitoru{
+    font-size: 55px;
+    display: flex;
+    justify-content: center;
+    padding-top: 19px;
+}
+
+.contact-box{
+    width: 572px;
+    height: 1013px;
+    border: 3px solid #e6e6e6;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 75px;
+}
+
+.contact-text{
+    font-size: 19px;
+    padding-top: 37px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-box1{
+    width: 509px;
+    height: 133px;
+    border: 2px solid #e6e6e6;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-top: 67px;
+}
+
+.contact-namae{
+    width: 481px;
+    height: 53px;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 16px;
+}
+
+.contact-text1{
+    font-size: 20px;
+    padding-left: 15px;
+    padding-top: 24px;
+}
+
+.contact-box2{
+    width: 509px;
+    height: 133px;
+    border: 2px solid #e6e6e6;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.contact-meru{
+    width: 481px;
+    height: 53px;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 16px;
+}
+
+.contact-text2{
+    font-size: 20px;
+    padding-left: 15px;
+    padding-top: 24px;
+}
+
+.contact-box3{
+    width: 509px;
+    height: 287px;
+    border: 2px solid #e6e6e6;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.contact-otoi{
+        width: 481px;
+    height: 197px;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 16px;
+}
+
+.contact-text3{
+    font-size: 20px;
+    padding-left: 15px;
+    padding-top: 24px;
+}
+
+.contact-btn{
+    width: 195px;
+    height: 70px;
+    margin: 0 auto;
+    margin-top: 37px;
+    background-color: #e6e6e6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-text4{
+    font-size: 29px;
+    color: #ff3d8d;
+}
+
+.contact-text5{
+    font-size: 25px;
+    color: #e6e6e6;
+    display: flex;
+    justify-content: center;
+    padding-top: 76px;
+}
+
+.contact-text6{
+    font-size: 23px;
+    color: #b8b8b8;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.saigo{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+}
