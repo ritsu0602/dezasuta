@@ -3,10 +3,22 @@ body{
     background-color: #0f1115;
 }
 
-.side-nav{
+.side-nav {
     position: fixed;
     top: 110px;
-    left: 56px;
+    left: -2px;
+}
+
+.side-nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.side-nav li {
+  padding: 20px 10px 20px 40px;
+  border: 2px solid #e6e6e6;
+  font-size: 14px;
+  background-color: #292c34;
 }
 
 .FV{
@@ -33,23 +45,34 @@ body{
 .player-info1{
     width: 550px;
     height: 88px;
-    border: 1px solid #e6e6e6;
     margin: 0 auto;
     margin-top: 17px;
     border-radius: 10px;
 }
 
-.player-info1 h1{
-    font-size: 20px;
-    margin-top: 16px;
-    margin-left: 10px;
+.player-info1 h1 {
+  border: 1px solid #e6e6e6;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+  margin-top: 16px;
+  margin-left: 8px;
 }
 
-.player-info1 p{
-    font-size: 18px;
-    margin-top: 15px;
-    margin-left: 10px;
-    color: #b8b8b8;
+.player-info1 p {
+  background-color: #0f1115;
+  border: 1px solid #e6e6e6;
+  border-top: none;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  display: inline-block;
+  margin-top: -1px;
+  padding: 10px;
+  font-size: 18px;
+  margin-left: 8px;
+  color: #b8b8b8;
+  padding-right: 39px;
 }
 
 .nami{
@@ -149,6 +172,11 @@ body{
   margin-left: 450px;
 }
 
+.work {
+  max-width: 1110px;
+  margin: 0 auto;
+  position: relative;
+}
 
 .work-track{
     font-size: 25px;
@@ -165,6 +193,9 @@ body{
 }
 
 .work-btn{
+  position: absolute;
+  right: 40px;
+  top: 112px;
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -185,6 +216,12 @@ body{
     margin-top: 54px;
 }
 
+.work-number {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+}
+
 .work-ka-do1{
   position: relative;
   height: 480px;
@@ -192,6 +229,34 @@ body{
   background: #292c34;
   overflow: hidden;
   margin-top: 62px;
+}
+
+.work-image1{
+    width: 450px;
+    height: 330px;
+    padding-top: 35px;
+    padding-left: 20px;
+}
+
+.work-image2{
+    width: 450px;
+    height: 330px;
+    padding-top: 35px;
+    padding-left: 20px;
+}
+
+.work-image3{
+    width: 450px;
+    height: 330px;
+    padding-top: 35px;
+    padding-left: 20px;
+}
+
+.work-image4{
+    width: 450px;
+    height: 330px;
+    padding-top: 35px;
+    padding-left: 20px;
 }
 
 .work-minitaitoru1{
@@ -204,6 +269,38 @@ body{
 .work-number1{
     font-size: 75px;
     padding-left: 389px;
+}
+
+.work-info1{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 15px;
+    justify-content: start;
+}
+
+.work-info2{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 15px;
+    justify-content: start;
+}
+
+.work-info3{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 15px;
+    justify-content: start;
+}
+
+.work-info4{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 15px;
+    justify-content: start;
 }
 
 .work-ka-do2{
@@ -293,6 +390,7 @@ body{
     margin-top: 62px;
 }
 
+
 .skills{
     background: url(./asetto/1x/skills-haikei.png);
     height: 987px;
@@ -364,7 +462,7 @@ body{
     color: #ed962f;
     display: flex;
     justify-content: center;
-    padding-top: 26px;
+    padding-top: 20px;
 }
 
 .skills-naiyou1{
@@ -386,7 +484,7 @@ body{
     color: #0b74b8;
     display: flex;
     justify-content: center;
-    padding-top: 26px;
+    padding-top: 20px;
 }
 
 .skills-mini2{
@@ -425,6 +523,20 @@ body{
     display: flex;
 }
 
+.skills-box3 img{
+    width: 82px;
+    height: 79px;
+}
+
+.skills-box4 img{
+    width: 99px;
+    height: 95px;
+}
+
+.skills-box5 img{
+    width: 94px;
+    height: 84px;
+}
 
 .contact-track{
     font-size: 25px;
