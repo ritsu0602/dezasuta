@@ -220,7 +220,7 @@ body{
   padding-left: 128px;
 }
 
-.about-ka-do-right h2{
+.about-taitoru-web{
   font-size: 55px;
   padding-top: 103px;
   padding-left: 55px;
@@ -823,3 +823,469 @@ body{
     justify-content: center;
     padding-top: 150px;
 }
+
+.about-taitoru-sp{
+    display: none;
+}
+
+.about-WebDesigner-sp{
+    display: none;
+}
+
+
+.about-namae{
+    display: block;
+}
+
+.about-namae-sp{
+    display: none;
+}
+
+.about-namae-sp1{
+    display: none;
+}
+
+.about-naiyou1{
+    display: block;
+}
+.about-naiyou2{
+    display: block;
+}
+.about-naiyou3{
+    display: block;
+}
+
+.about-naiyou1sp{
+    display: none;
+}
+    .about-naiyou2sp{
+    display: none;
+}
+    .about-naiyou3sp{
+    display: none;
+}
+
+.work-btnsp{
+    display: none;
+}
+@media (max-width: 768px){
+
+    .work-ka-do4{
+        display: none;
+    }
+
+    .work-btnsp{
+        display: block;
+    align-items: center;
+    width: 175px;
+    height: 45px;
+    background: #e6e6e6;
+    color: #ff3d8d;
+    border-radius: 30px;
+    font-size: 15px;
+    margin-top: 27px;
+    display: inline-flex;
+    justify-content: center;
+ }
+
+
+    .work-btn{
+    display: none;
+     }
+    .about-naiyou1sp{
+    display: block;
+    font-size: 12px;
+    line-height: 2;
+    display: flex;
+    justify-content: center;
+ }
+ .about-naiyou2sp{
+    display: block;
+    font-size: 12px;
+    line-height: 2;
+    display: flex;
+    justify-content: center;
+ }
+ .about-naiyou3sp{
+    display: block;
+    font-size: 12px;
+    line-height: 2;
+    display: flex;
+    justify-content: center;
+ }
+
+    .about-naiyou1{
+    display: none;
+ }
+    .about-naiyou2{
+    display: none;
+ }
+    .about-naiyou3{
+    display: none;
+ }
+    .about-namae-sp1{
+    display: block;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    padding-top: 18px;
+    padding-bottom: 45px;
+  }
+    .about-namae-sp{
+        display: block;
+        font-size: 22px;
+        display: flex;
+        justify-content: center;
+    }
+
+ .about-namae{
+    display: none;
+ }
+    .about-taitoru-web{
+        display: none;
+    }
+
+    .about-WebDesigner-sp{
+        display: block;
+        font-size: 14px;
+        padding-top: 27px;
+        padding-bottom: 18px;
+        display: flex;
+        justify-content: center;
+ }
+
+    .about-taitoru-sp{
+        display: block;
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        padding-top: 18px;
+    }
+
+
+    .btn{
+        width: 175px;
+        height: 45px;
+        font-size: 15px;
+        margin-left: 72px;
+    }
+
+
+    .FV{
+        height: 485px;
+    }
+
+    .FV_1{
+        height: 315px;
+        width: 300px;
+
+    }
+
+    .noizu{
+        width: 290px;
+        height: 223px;
+    }
+
+    .player-info1 h1 {
+        font-size: 13px;
+    }
+
+    .player-info1 p{
+        font-size: 10px;
+    }
+
+    .nami-box{
+        width: 176px;
+        height: 11px;
+    }
+
+    .nami{
+        width: 171px;
+        height: 10px;
+    }
+
+    .player-info1{
+        width: 289px;
+    }
+
+    .about{
+        height: 816px;
+    }
+
+    .about-ka-do{
+        width: 320px;
+        height: 765px;
+        display: grid;
+        background: url(../2x/about-haikei.png);
+    }
+
+    .about-ka-do-left p{
+        font-size: 15px;
+        padding-top: 25px;
+        padding-left: 27px;
+    }
+
+
+    .about-ka-do-left img{
+        width: 130px;
+        height: 130px;
+        margin-top: 27px;
+        margin-left: 90px ;
+    }
+
+    .about-namae {
+        font-size: 22px;
+    }
+
+
+    .playback, .stop {
+         width: 55px;
+         height: 16px;
+    }
+    .work-taitoru{
+        font-size: 25px;
+    }
+    .work-track{
+        font-size: 15px;
+        padding-top: 45px;
+    } 
+    .work-senn{
+        margin-top: 25px;
+        width: 320px;
+    }
+
+    .work-ka-do1{
+        margin-top: 45px;
+        width: 320px;
+        height: 319px;
+    }
+
+    .work-image1 {
+        width: 300px;
+        height: 220px;
+        padding-left: 10px;
+        padding-top: 18px;
+    }
+
+    .work-number1{
+        font-size: 50px;padding-left: 225px;
+    }
+    .work-minitaitoru1{
+        font-size: 19px;
+        padding-top: 18px;
+        padding-left: 18px;
+    }
+
+    .work-info1 {
+        row-gap: 9px;
+        margin-top: 15px;
+        font-size: 12px;
+    }
+
+    .work-sikaku {
+        width: 3px;
+        height: 11px;
+        margin-left: 18px;
+    }
+    .work-ka-do2{
+        margin-top: 45px;
+        width: 320px;
+        height: 319px;
+        margin-left: 0;
+    }
+
+    .work-image2 {
+        width: 300px;
+        height: 220px;
+        padding-left: 10px;
+        padding-top: 18px;
+    }
+
+    .work-number2{
+        font-size: 50px;padding-left: 225px;
+    }
+    .work-minitaitoru2{
+        font-size: 19px;
+        padding-top: 18px;
+        padding-left: 18px;
+    }
+
+    .work-info2 {
+        row-gap: 9px;
+        margin-top: 15px;
+        font-size: 12px;
+    }
+
+        .work-sikaku {
+        width: 3px;
+        height: 11px;
+        margin-left: 18px;
+    }
+    .work-info3{
+        font-size: 12px;
+    }
+
+    .work-ka-do3{
+        margin-top: 45px;
+        width: 320px;
+        height: 319px;
+    }
+
+    .work-image3 {
+        width: 300px;
+        height: 220px;
+        padding-left: 10px;
+        padding-top: 18px;
+    }
+
+    .work-number3{
+        font-size: 50px;
+        padding-left: 225px;
+    }
+    .work-minitaitoru3{
+        font-size: 19px;
+        padding-top: 18px;
+        padding-left: 18px;
+    }
+
+    .work-info3 {
+        row-gap: 9px;
+        margin-top: 15px;
+        font-size: 12px;
+    }
+
+        .work-sikaku {
+        width: 3px;
+        height: 11px;
+        margin-left: 18px;
+    }
+
+    .work-senn1 {
+        margin-top: 25px;
+        width: 320px;
+    }
+    
+    .skills-track {
+        font-size: 15px;
+        padding-top: 45px;
+    }
+
+    .skills-taitoru{
+        font-size: 25px;
+    }
+
+    .skills-naiyou {
+        margin-top: 25px;
+        display: grid;
+    }
+
+    .skills-minitaitoru {
+        font-size: 16px;
+        padding-left: 35px;
+        display: block;
+    }
+
+    .skills-setumei{
+        font-size: 12px;
+        padding-top: 18px;
+        line-height: 2.4;
+    }
+
+    .skills-naiyou{
+        gap: 18px;
+    }
+
+    .skills{
+        background: url(../2x/sukiru-haikei-sp.png);
+    }
+    .skills-mini{
+        font-size: 16px;
+        padding-top: 25px;
+        padding-left: 27px;
+    }
+    .skills-mini2 {
+        font-size: 16px;
+        padding-top: 25px;
+        padding-left: 27px;
+        padding-top: 10px;
+    }
+    .contact-track {
+        font-size: 15px;
+        padding-top: 45px;
+    }
+    .contact-taitoru {
+            font-size: 25px;
+    }
+    .contact-text{
+        font-size: 13px;
+        padding-top: 25px;
+    }
+    .contact-text1{
+        font-size: 13px;
+        padding-top: 4px;
+    }
+    .contact-text2{
+        font-size: 13px;
+        padding-top: 4px;
+    }
+    
+    .contact-text3{
+        font-size: 13px;
+        padding-top: 4px;
+    }
+    .contact-text5{
+        font-size: 13px;
+        padding-top: 45px;
+    }
+    .contact-text6{
+        font-size: 12px;
+        padding-top: 10px;
+    }
+    .contact-namae {
+        width: 252px;
+        height: 27px;
+    }
+    .contact-box1 {
+        width: 266px;
+        height: 68px;
+        margin-top: 25px;
+    }
+    .contact-meru {
+        width: 252px;
+        height: 27px;
+    }
+    .contact-box2 {
+        width: 266px;
+        height: 68px;
+        margin-top: 15px;
+    }
+    .contact-otoi{
+        width: 252px;
+        height: 103px;
+    }
+    .contact-box3{
+        width: 266px;
+        height: 150px;
+        margin-top: 15px;
+    }
+    .contact-box {
+        width: 300px;
+        height: 531px;
+        margin-top: 27px;
+    }
+    .contact-btn{
+        margin-top: 20px;
+        width: 102px;
+        height: 29px;
+        border-radius: 5px;
+    }
+    .contact-text4{
+        font-size: 15px;
+    }
+    .saigo{
+        font-size: 6px;
+        padding-top: 65px;
+    }
+}
+
+

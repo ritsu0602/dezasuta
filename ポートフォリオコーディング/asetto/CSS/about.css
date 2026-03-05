@@ -90,12 +90,12 @@ body{
     font-size: 25px;
     max-width: 827px;
     margin: 0 auto;
-    line-height: 1.72;
     margin-top: 140px;
 }
 
 .honnbunn p{
     margin-bottom: 65px;
+    line-height: 1.72;
 }
 
 .contact{
