@@ -826,6 +826,7 @@ body{
 
 .about-taitoru-sp{
     display: none;
+    padding-bottom: 27px;
 }
 
 .about-WebDesigner-sp{
@@ -869,6 +870,10 @@ body{
     display: none;
 }
 @media (max-width: 768px){
+    .zyaketto {
+        display: grid;
+    }
+
 
     .work-ka-do4{
         display: none;
@@ -948,7 +953,6 @@ body{
     .about-WebDesigner-sp{
         display: block;
         font-size: 14px;
-        padding-top: 27px;
         padding-bottom: 18px;
         display: flex;
         justify-content: center;
@@ -1029,8 +1033,8 @@ body{
     .about-ka-do-left img{
         width: 130px;
         height: 130px;
-        margin-top: 27px;
-        margin-left: 90px ;
+        display: block;
+        margin: 0 auto;
     }
 
     .about-namae {
