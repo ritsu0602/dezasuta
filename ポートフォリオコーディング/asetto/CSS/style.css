@@ -24,6 +24,7 @@ body{
   border: 2px solid #e6e6e6;
   font-size: 14px;
   background-color: #292c34;
+  font-weight: 700;
 }
 
 .FV{
@@ -153,6 +154,7 @@ body{
   font-size: 20px;
   margin-top: 16px;
   margin-left: 8px;
+    font-weight: 500;
 }
 
 .player-info1 p {
@@ -201,7 +203,7 @@ body{
     display: flex;
     background-color: #292c34E6;
     border-radius: 20px;
-    box-shadow: 0 0 30px #ff3d8d;
+    box-shadow: 0 0 30px #ff3d8b;
 }
 
 .about-ka-do-left img{
@@ -209,7 +211,7 @@ body{
   height: 300px;
   object-fit: cover;
   border-radius: 50%;
-  border: 2px solid #ff3d8d;
+  border: 2px solid #ff3d8b;
   margin-top: 39px;
   margin-left: 32px;
 }
@@ -218,12 +220,14 @@ body{
   font-size: 25px;
   padding-top: 45px;
   padding-left: 128px;
+    font-weight: 700;
 }
 
 .about-taitoru-web{
   font-size: 55px;
   padding-top: 103px;
   padding-left: 55px;
+    font-weight: 500;
 }
 
 .about-namae{
@@ -260,11 +264,17 @@ body{
   width: 250px;
   height: 60px;
   background: #e6e6e6;
-  color: #ff3d8d;
+  color: #ff3d8b;
   border-radius: 30px;
   font-size: 20px;
   margin-top: 36px;
   margin-left: 450px;
+  transition: 0.3s;
+}
+
+.btn:hover{
+    background-color: #ff3d8b;
+    color: #e6e6e6;
 }
 
 .work {
@@ -278,6 +288,7 @@ body{
     display: flex;
     justify-content: center;
     padding-top: 66px;
+      font-weight: 700;
 }
 
 .work-taitoru{
@@ -285,6 +296,7 @@ body{
     display: flex;
     justify-content: center;
     padding-top: 19px;
+      font-weight: 500;
 }
 
 .work-btn{
@@ -297,12 +309,57 @@ body{
   width: 250px;
   height: 60px;
   background: #e6e6e6;
-  color: #ff3d8d;
+  color: #ff3d8b;
   border-radius: 30px;
   font-size: 20px;
-  margin-left: 980px;
+  margin-left: 980px;    
+  transition: 0.3s;   
 }
 
+.work-btn:hover{
+    background-color: #ff3d8b;
+    color: #e6e6e6;
+}
+
+.zyaketto .works__link {
+  transition: 0.3s;
+  position: relative;
+  display: block;
+  height: 100%;
+}
+.zyaketto .works__link::before {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 35px solid #6b6d73;
+  border-right: 0;
+  right: 27px;
+  bottom: 30px;
+  transition: 0.3s;
+}
+.zyaketto .works__link::after {
+  position: absolute;
+  content: "";
+  width: 45px;
+  height: 10px;
+  background-color: #6b6d73;
+  right: 60px;
+  bottom: 44px;
+  transition: 0.3s;
+}
+
+.works__link:hover::before {
+  right: 17px;
+  border-left:35px solid #ff3d8b;
+}
+.works__link:hover::after {
+  right: 52px;
+  background-color: #ff3d8b;
+}
 
 .work-senn{
     border: 2px solid #e6e6e6;
@@ -356,7 +413,7 @@ body{
 
 .work-minitaitoru1{
     font-size: 30px;
-    color: #ff3d8d;
+    color: #ff3d8b;
     padding-left: 33px;
     padding-top: 29px;
 }
@@ -410,7 +467,7 @@ body{
 
 .work-minitaitoru2{
     font-size: 30px;
-    color: #ff3d8d;
+    color: #ff3d8b;
     padding-left: 33px;
     padding-top: 29px;
 }
@@ -431,7 +488,7 @@ body{
 
 .work-minitaitoru3{
     font-size: 30px;
-    color: #ff3d8d;
+    color: #ff3d8b;
     padding-left: 33px;
     padding-top: 29px;
 }
@@ -453,7 +510,7 @@ body{
 
 .work-minitaitoru4{
     font-size: 30px;
-    color: #ff3d8d;
+    color: #ff3d8b;
     padding-left: 33px;
     padding-top: 29px;
 }
@@ -467,7 +524,7 @@ body{
     display: inline-block;
     width: 3px;
     height: 16px;
-    background-color: #ff3d8d;
+    background-color: #ff3d8b;
     margin-right: 10px;
     margin-left: 30px;
 }
@@ -496,6 +553,7 @@ body{
     display: flex;
     justify-content: center;
     padding-top: 80px;
+      font-weight: 700;
 }
 
 .skills-taitoru{
@@ -503,6 +561,7 @@ body{
     display: flex;
     justify-content: center;
     padding-top: 19px;
+      font-weight: 500;
 }
 
 .skills-naiyou{
@@ -564,6 +623,7 @@ body{
     display: flex;
     justify-content: center;
     padding-top: 20px;
+      font-weight: 700;
 }
 
 .skills-naiyou1{
@@ -586,6 +646,7 @@ body{
     display: flex;
     justify-content: center;
     padding-top: 20px;
+      font-weight: 700;
 }
 
 .skills-mini2{
@@ -627,16 +688,22 @@ body{
 .skills-box3 img{
     width: 82px;
     height: 79px;
+    margin-top: 5px;
+    margin-left: -7px;
 }
 
 .skills-box4 img{
     width: 99px;
     height: 95px;
+    margin-top: 5px;
+    margin-left: -7px;
 }
 
 .skills-box5 img{
     width: 94px;
     height: 84px;
+    margin-top: 5px;
+    margin-left: -2px;
 }
 
 
@@ -687,6 +754,7 @@ body{
     display: flex;
     justify-content: center;
     padding-top: 80px;
+      font-weight: 700;
 }
 
 .contact-taitoru{
@@ -694,6 +762,7 @@ body{
     display: flex;
     justify-content: center;
     padding-top: 19px;
+      font-weight: 500;
 }
 
 .contact-box{
@@ -794,11 +863,21 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.3s;
+}
+
+.contact-btn:hover{
+    background-color: #ff3d8b;
+}
+
+.contact-text4:hover{
+    color: #e6e6e6;;
 }
 
 .contact-text4{
     font-size: 29px;
-    color: #ff3d8d;
+    color: #ff3d8b;
+    transition: 0.3s;
 }
 
 .contact-text5{
@@ -807,6 +886,7 @@ body{
     display: flex;
     justify-content: center;
     padding-top: 76px;
+      font-weight: 500;
 }
 
 .contact-text6{
@@ -816,6 +896,34 @@ body{
     justify-content: center;
     padding-top: 20px;
 }
+
+.contact-namae,
+.contact-meru,
+.contact-otoi {
+  display: block;
+  background-color: transparent;
+  outline: none;
+  box-sizing: border-box;
+  padding: 10px; 
+  color: #e6e6e6;
+}
+
+.contact-otoi {
+  resize: none;
+}
+
+.contact-btn {
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.contact-text1,
+.contact-text2,
+.contact-text3 {
+  display: block;
+}
+
 
 .saigo{
     font-size: 12px;
@@ -870,6 +978,7 @@ body{
     display: none;
 }
 @media (max-width: 768px){
+
     .zyaketto {
         display: grid;
     }
@@ -879,19 +988,21 @@ body{
         display: none;
     }
 
-    .work-btnsp{
+        .work-btnsp {
         display: block;
-    align-items: center;
-    width: 175px;
-    height: 45px;
-    background: #e6e6e6;
-    color: #ff3d8d;
-    border-radius: 30px;
-    font-size: 15px;
-    margin-top: 27px;
-    display: inline-flex;
-    justify-content: center;
- }
+        align-items: center;
+        width: 175px;
+        height: 45px;
+        background: #e6e6e6;
+        color: #ff3d8b;
+        border-radius: 30px;
+        font-size: 15px;
+        margin-top: 27px;
+        justify-content: center;
+        margin: 27px auto;
+        text-align: center;
+        line-height: 45px;
+    }
 
 
     .work-btn{
@@ -903,6 +1014,7 @@ body{
     line-height: 2;
     display: flex;
     justify-content: center;
+    margin-bottom: 25px;
  }
  .about-naiyou2sp{
     display: block;
@@ -910,6 +1022,7 @@ body{
     line-height: 2;
     display: flex;
     justify-content: center;
+    margin-bottom: 25px;
  }
  .about-naiyou3sp{
     display: block;
@@ -934,7 +1047,7 @@ body{
     display: flex;
     justify-content: center;
     padding-top: 18px;
-    padding-bottom: 45px;
+    padding-bottom: 40px;
   }
     .about-namae-sp{
         display: block;
@@ -964,6 +1077,7 @@ body{
         display: flex;
         justify-content: center;
         padding-top: 18px;
+          font-weight: 500;
     }
 
 
@@ -972,46 +1086,28 @@ body{
         height: 45px;
         font-size: 15px;
         margin-left: 72px;
+        margin-top: 20px;
     }
 
 
-    .FV{
-        height: 485px;
-    }
+    .side-nav{
+    display: none;
+   }
+    .FV {
+    transform: scale(0.6);
+     height: 475px;
+  }
+  .music-btn-area {
+    margin-left: 12px;
+  }
+  .playback,.stop {
+    width: 94px;
+  }
 
-    .FV_1{
-        height: 315px;
-        width: 300px;
-
-    }
-
-    .noizu{
-        width: 290px;
-        height: 223px;
-    }
-
-    .player-info1 h1 {
-        font-size: 13px;
-    }
-
-    .player-info1 p{
-        font-size: 10px;
-    }
-
-    .nami-box{
-        width: 176px;
-        height: 11px;
-    }
-
-    .nami{
-        width: 171px;
-        height: 10px;
-    }
-
-    .player-info1{
-        width: 289px;
-    }
-
+  .noizu{
+    background: url(../2x/FV-noizu-sp.png);
+    width: 535px;
+  }
     .about{
         height: 816px;
     }
@@ -1036,16 +1132,15 @@ body{
         display: block;
         margin: 0 auto;
     }
+    .about-ka-do-right > p {
+    text-align: center;
+  }
 
     .about-namae {
         font-size: 22px;
     }
 
 
-    .playback, .stop {
-         width: 55px;
-         height: 16px;
-    }
     .work-taitoru{
         font-size: 25px;
     }
@@ -1057,6 +1152,26 @@ body{
         margin-top: 25px;
         width: 320px;
     }
+
+    .zyaketto .works__link::before {
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 25px solid #6b6d73;
+  border-right: 0;
+  right: 10px;
+  bottom: 11px;
+  transition: 0.3s;
+}
+.zyaketto .works__link::after {
+  width: 25px;
+  height: 9px;
+  background-color: #6b6d73;
+  right: 31px;
+  bottom: 21px;
+  transition: 0.3s;
+}
+
+
 
     .work-ka-do1{
         margin-top: 45px;
@@ -1168,6 +1283,65 @@ body{
         margin-top: 25px;
         width: 320px;
     }
+
+    .skills-matome1,
+  .skills-matome2 {
+    max-width: 320px;
+    margin: 0 auto;
+    gap: 0;
+    justify-content: space-between;
+  }
+  .skills-matome2 {
+    flex-wrap: wrap;
+  }
+
+  .skills-box,
+  .skills-box2,
+  .skills-box3,
+  .skills-box4,
+  .skills-box5 {
+    width: 153px;
+    height: 53px;
+  }
+  .skills-sikakuaikonn {
+    width: 35px;
+    height: 35px;
+  }
+  .skills-aikonn,
+  .skills-aikonn2 {
+    font-size: 19px;
+    padding-top: 8px;
+  }
+  .skills-naiyou1 {
+    font-size: 11px;
+    width: calc(100% - 35px);
+    padding-left: 11px;
+    padding-top: 16px;
+  }
+  .skills-box3 img {
+    width: 37px;
+    height: auto;
+    margin-top: 2px;
+    margin-left: -5px;
+  }
+  .skills-box4 img {
+    width: 45px;
+    height: auto;
+    margin-top: 2px;
+    margin-left: -5px;
+  }
+  .skills-box5 img {
+    height: auto;
+    width: 41px;
+    margin-top: 2px;
+    margin-left: -1px;
+  }
+  .skills-naiyou1::before {
+    bottom: 11px;
+  }
+  .skills-naiyou1::after {
+    bottom: 3px;
+  }
     
     .skills-track {
         font-size: 15px;
@@ -1213,6 +1387,8 @@ body{
         padding-left: 27px;
         padding-top: 10px;
     }
+
+    
     .contact-track {
         font-size: 15px;
         padding-top: 45px;

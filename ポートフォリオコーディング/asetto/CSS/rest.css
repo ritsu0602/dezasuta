@@ -22,8 +22,9 @@ dl {
   line-height: 1;
   /*デフォルトの文字色、font-familyを予め当てておく*/
   color: #e6e6e6;
-  font-family: "Noto Sans JP", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ",
-    "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
+  font-family:
+    "Space Grotesk", "Noto Sans JP", YuGothic, "游ゴシック", "Yu Gothic",
+    "メイリオ", "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
   box-sizing: border-box;
 }
 

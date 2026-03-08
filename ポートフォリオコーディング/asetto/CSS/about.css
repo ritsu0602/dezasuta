@@ -36,6 +36,7 @@ body{
   border: 2px solid #e6e6e6;
   font-size: 14px;
   background-color: #292c34;
+    font-weight: 700;
 }
 
 .taitoru{
@@ -43,6 +44,7 @@ body{
     padding-top: 265px;
     display: flex;
     justify-content: center;
+      font-weight: 500;
 }
 
 .syoukai img{
@@ -64,6 +66,7 @@ body{
 .naiyou1{
     font-size: 20px;
     line-height: 1.75;
+      font-weight: 700;
 }
 
 .naiyou2{
@@ -118,6 +121,7 @@ body{
     font-size: 55px;
     padding-left: 45px;
     padding-top: 50px;
+      font-weight: 500;
 }
 
 .contact-naiyou1{
@@ -141,11 +145,17 @@ body{
   width: 270px;
   height: 55px;
   background: #e6e6e6;
-  color: #ff3d8d;
+  color: #ff3d8b;
   border-radius: 30px;
   font-size: 15px;
   margin-left: 45px;
   margin-top: 50px;
+  transition: 0.3s;
+}
+
+.work-btn:hover{
+    background-color: #ff3d8b;
+    color: #e6e6e6;
 }
 
 .saigo{
@@ -239,30 +249,31 @@ body{
 
 .honnbunn{
     font-size: 14px;
-    max-width: 295px;
+    max-width: 296px;
     margin: 0 auto;
     margin-top: 45px;
 }
 .honnbunn p{
     line-height: 1.7;
     margin-bottom: 30px;
+    text-align: center;
 }
 .kakusi{
     display: block;
 }
 .contact-taitoru {
     font-size: 25px;
-    padding-left: 35px;
+    padding-left: 30px;
     padding-top: 30px;
 }
 .contact-naiyou1 {
     font-size: 15px;
-    padding-left: 35px;
+    padding-left: 30px;
     padding-top: 35px;
 }
 .contact-naiyou2{
     font-size: 15px;
-    padding-left: 35px;
+    padding-left: 30px;
     padding-top: 35px;
 }
 
@@ -270,7 +281,7 @@ body{
     width: 175px;
     height: 45px;
     margin-top: 45px;
-    margin-left: 35px;
+    margin-left: 30px;
     font-size: 12px;
 }
 .sikaku{

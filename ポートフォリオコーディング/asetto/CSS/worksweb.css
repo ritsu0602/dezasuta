@@ -20,6 +20,7 @@ body{
   border: 2px solid #e6e6e6;
   font-size: 14px;
   background-color: #292c34;
+    font-weight: 700;
 }
 .work {
   max-width: 1110px;
@@ -33,6 +34,7 @@ body{
     position: absolute;
     line-height: 1.7;
     padding-left: 90px;
+      font-weight: 700;
 }
 
 .work-taitoru{
@@ -40,6 +42,7 @@ body{
     display: flex;
     justify-content: center;
     padding-top: 19px;
+      font-weight: 500;
 }
 
 .work-senn{
@@ -54,6 +57,7 @@ body{
     justify-content: center;
     gap: 25px;
     font-size: 25px;
+      font-weight: 700;
 }
 
 .btn{
@@ -66,6 +70,51 @@ body{
     justify-content: center;
     align-items: center;
     margin-top: 62px;
+    transition: 0.3s;
+}
+.btn:hover{
+    background-color: #ff3d8b;
+    color: #e6e6e6;
+}
+
+.zyaketto .works__link {
+  transition: 0.3s;
+  position: relative;
+  display: block;
+  height: 100%;
+}
+.zyaketto .works__link::before {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 35px solid #6b6d73;
+  border-right: 0;
+  right: 27px;
+  bottom: 30px;
+  transition: 0.3s;
+}
+.zyaketto .works__link::after {
+  position: absolute;
+  content: "";
+  width: 45px;
+  height: 10px;
+  background-color: #6b6d73;
+  right: 60px;
+  bottom: 44px;
+  transition: 0.3s;
+}
+
+.works__link:hover::before {
+  right: 17px;
+  border-left:35px solid #ff3d8d;
+}
+.works__link:hover::after {
+  right: 52px;
+  background-color: #ff3d8b;
 }
 
 .work-ka-do1{
@@ -100,7 +149,7 @@ body{
 
 .work-minitaitoru1{
     font-size: 30px;
-    color: #ff3d8d;
+    color: #ff3d8b;
     padding-left: 33px;
     padding-top: 29px;
 }
@@ -141,7 +190,7 @@ body{
 
 .work-minitaitoru3{
     font-size: 30px;
-    color: #ff3d8d;
+    color: #ff3d8b;
     padding-left: 33px;
     padding-top: 29px;
 }
@@ -159,7 +208,7 @@ body{
 
 .work-minitaitoru4{
     font-size: 30px;
-    color: #ff3d8d;
+    color: #ff3d8b;
     padding-left: 33px;
     padding-top: 29px;
 }
@@ -168,7 +217,7 @@ body{
     display: inline-block;
     width: 3px;
     height: 16px;
-    background-color: #ff3d8d;
+    background-color: #ff3d8b;
     margin-right: 10px;
     margin-left: 30px;
 }
@@ -202,7 +251,7 @@ body{
 
 .work-minitaitoru5{
     font-size: 30px;
-    color: #ff3d8d;
+    color: #ff3d8b;
     padding-left: 33px;
     padding-top: 29px;
 }
@@ -239,6 +288,7 @@ body{
     font-size: 55px;
     padding-left: 45px;
     padding-top: 50px;
+      font-weight: 500;
 }
 
 .contact-naiyou1{
@@ -261,11 +311,16 @@ body{
   width: 270px;
   height: 55px;
   background: #e6e6e6;
-  color: #ff3d8d;
+  color: #ff3d8b;
   border-radius: 30px;
   font-size: 15px;
   margin-left: 45px;
   margin-top: 50px;
+  transition: 0.3s;
+}
+.work-btn:hover{
+    background-color: #ff3d8b;
+    color: #e6e6e6;
 }
 
 .saigo{
@@ -273,4 +328,212 @@ body{
     display: flex;
     justify-content: center;
     padding-top: 150px;
+}
+@media (max-width: 768px){
+    .side-nav{
+        display: none;
+    }
+
+    .work{
+        margin-top: 25px;
+    }
+    .work-track{
+        font-size: 10px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        padding-left: 0;
+        position: static;
+    } 
+    .work-taitoru{
+        font-size: 25px;
+        padding-top:25px;
+    }
+    .work-senn{
+         width: 358px;
+         margin-top: 25px;
+    }
+    .sann{
+        gap: 10px;
+        font-size: 16px;
+    }
+    .btn {
+        width: 80px;
+        height: 35px;
+        margin-top: 20px;
+    }
+     .zyaketto {
+        display: grid;
+    }
+
+    .work-ka-do1{
+        margin-top: 30px;
+        width: 234px;
+        height: 233px;
+    }
+
+    .work-image1 {
+        width: 219px;
+        height: 160px;
+        padding-left: 9px;
+        padding-top: 15px;
+    }
+
+    .work-minitaitoru1{
+        font-size: 15px;
+        padding-top: 15px;
+        padding-left: 15px;
+    }
+
+    .work-info1 {
+        row-gap: 5px;
+        margin-top: 13px;
+        font-size: 10px;
+    }
+
+    .work-sikaku {
+        width: 2px;
+        height: 8px;
+        margin-left: 10px;
+            margin-right: 5px;
+    }
+
+    .zyakettocategory{
+        margin-left: -30px;
+    }
+
+    .zyaketto .works__link::before {
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 15px solid #6b6d73;
+  border-right: 0;
+  right: 10px;
+  bottom: 3px;
+  transition: 0.3s;
+}
+.zyaketto .works__link::after {
+  width: 25px;
+  height: 5px;
+  background-color: #6b6d73;
+  right: 22px;
+  bottom: 10px;
+  transition: 0.3s;
+}
+
+
+    .work-ka-do3{
+        margin-top: 30px;
+        width: 234px;
+        height: 233px;
+    }
+
+    .work-image3 {
+        width: 219px;
+        height: 160px;
+        padding-left: 9px;
+        padding-top: 15px;
+    }
+
+    .work-minitaitoru3{
+        font-size: 15px;
+        padding-top: 15px;
+        padding-left: 15px;
+    }
+
+    .work-info3{
+        row-gap: 5px;
+        margin-top: 13px;
+        font-size: 10px;
+    }
+
+    .work-ka-do4{
+        margin-top: 30px;
+        width: 234px;
+        height: 233px;
+        margin-left: 0px;
+    }
+
+    .work-image4 {
+        width: 219px;
+        height: 160px;
+        padding-left: 9px;
+        padding-top: 15px;
+    }
+
+    .work-minitaitoru4{
+        font-size: 15px;
+        padding-top: 15px;
+        padding-left: 15px;
+    }
+
+    .work-info4 {
+        row-gap: 5px;
+        margin-top: 13px;
+        font-size: 10px;
+    }
+    .work-ka-do5{
+        margin-top: 30px;
+        width: 234px;
+        height: 233px;
+        margin-left: 0px;
+    }
+
+    .work-image5 {
+        width: 219px;
+        height: 160px;
+        padding-left: 9px;
+        padding-top: 15px;
+    }
+
+    .work-minitaitoru5{
+        font-size: 15px;
+        padding-top: 15px;
+        padding-left: 15px;
+    }
+
+    .work-info5{
+        row-gap: 5px;
+        margin-top: 13px;
+        font-size: 10px;
+    }
+   
+    .work-senn1{
+         width: 358px;
+         margin-top: 25px;
+    }
+
+    .contact-taitoru {
+    font-size: 25px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.contact-naiyou1 {
+    font-size: 15px;
+    padding-left: 30px;
+    padding-top: 35px;
+}
+.contact-naiyou2{
+    font-size: 15px;
+    padding-left: 30px;
+    padding-top: 35px;
+}
+
+.work-btn{
+    width: 175px;
+    height: 45px;
+    margin-top: 45px;
+    margin-left: 30px;
+    font-size: 12px;
+}
+.sikaku{
+    width: 300px;
+    height: 400px;
+}
+.contact{
+    margin-top: 20px;
+}
+.saigo{
+        font-size: 6px;
+        padding-top: 20px;
+    }
 }

@@ -20,6 +20,7 @@ body{
   border: 2px solid #e6e6e6;
   font-size: 14px;
   background-color: #292c34;
+    font-weight: 700;
 }
 
 h1{
@@ -80,7 +81,7 @@ section img{
 .work-sikaku{
     width: 3px;
     height: 33px;
-    background-color: #ff3d8d;
+    background-color: #ff3d8b;
     margin-right: 15px;
 }
 
@@ -169,6 +170,7 @@ section img{
     font-size: 55px;
     padding-left: 45px;
     padding-top: 50px;
+      font-weight: 500;
 }
 
 .contact-naiyou1{
@@ -191,11 +193,16 @@ section img{
   width: 270px;
   height: 55px;
   background: #e6e6e6;
-  color: #ff3d8d;
+  color: #ff3d8b;
   border-radius: 30px;
   font-size: 15px;
   margin-left: 45px;
   margin-top: 50px;
+  transition: 0.3s;
+}
+.work-btn:hover{
+    background-color: #ff3d8b;
+    color: #e6e6e6;
 }
 
 .saigo{
@@ -203,4 +210,135 @@ section img{
     display: flex;
     justify-content: center;
     padding-top: 150px;
+}
+
+@media (max-width: 768px){
+    .side-nav{
+        display: none;
+    }
+    h1{
+        font-size: 80px;
+        padding-left: 100px;
+        padding-top: 25px;
+    }
+    .matome{
+        display: grid;
+        gap: 0;
+    }
+    section img{
+        width: 224px;
+        height: 168px;
+        padding-top: 45px;
+        padding-left: 0px;
+        margin: 0 auto;
+    }
+    .taitoru {
+    font-size: 20px;
+    padding-top: 45px;
+    text-align: center;
+    padding-bottom: 18px;
+    }
+    .senn{
+        width: 300px;
+        margin: 0 auto;
+    }
+    .naiyou1{
+        font-size: 14px;
+        text-align: center;
+    }
+    .naiyou2{
+        font-size: 14px;
+        text-align: center;
+        padding-top: 25px;
+    }
+
+    .work-info{
+        margin-top: 35px;
+        display: grid;
+        justify-content: center;
+    }
+    .naiyou3{
+        font-size: 13px;
+    }
+    .naiyou4{
+        font-size: 13px;
+        padding-left: 51px;
+    }
+    .naiyou5{
+        font-size: 13px;
+    }
+    .naiyou6{
+        font-size: 13px;
+        padding-left: 64px;
+    }
+    .naiyou7{
+        font-size: 13px;
+    }
+    .work-sikaku {
+        width: 2px;
+        height: 20px;
+        margin-right: 10px;
+    }
+    .backnaiyou2{
+        font-size: 11px;
+        padding-left: 80px;
+    }
+    .backnaiyou1{
+        font-size: 13px;
+        padding-left: 9px;
+    }
+    .yazirusi{
+        width: 15px;
+        height: 9px;
+        padding-left: 9px;
+        padding-bottom: 4px;
+    }
+    .box1{
+        width: 300px;
+        height: 21px;
+        margin-top: 55px;
+    }
+
+    .work1{
+        padding-top: 35px;
+        width: 315px;
+        height: 315px;
+    }
+
+    .contact-taitoru {
+    font-size: 25px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.contact-naiyou1 {
+    font-size: 15px;
+    padding-left: 30px;
+    padding-top: 35px;
+}
+.contact-naiyou2{
+    font-size: 15px;
+    padding-left: 30px;
+    padding-top: 35px;
+}
+
+.work-btn{
+    width: 175px;
+    height: 45px;
+    margin-top: 45px;
+    margin-left: 30px;
+    font-size: 12px;
+}
+.sikaku2{
+    width: 300px;
+    height: 400px;
+}
+.contact{
+    margin-top: 20px;
+}
+.saigo{
+        font-size: 6px;
+        padding-top: 20px;
+    }
+
+
 }
