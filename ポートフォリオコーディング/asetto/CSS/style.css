@@ -1002,6 +1002,7 @@ body{
         margin: 27px auto;
         text-align: center;
         line-height: 45px;
+        transition: 0.3s;
     }
 
 
@@ -1284,65 +1285,7 @@ body{
         width: 320px;
     }
 
-    .skills-matome1,
-  .skills-matome2 {
-    max-width: 320px;
-    margin: 0 auto;
-    gap: 0;
-    justify-content: space-between;
-  }
-  .skills-matome2 {
-    flex-wrap: wrap;
-  }
-
-  .skills-box,
-  .skills-box2,
-  .skills-box3,
-  .skills-box4,
-  .skills-box5 {
-    width: 153px;
-    height: 53px;
-  }
-  .skills-sikakuaikonn {
-    width: 35px;
-    height: 35px;
-  }
-  .skills-aikonn,
-  .skills-aikonn2 {
-    font-size: 19px;
-    padding-top: 8px;
-  }
-  .skills-naiyou1 {
-    font-size: 11px;
-    width: calc(100% - 35px);
-    padding-left: 11px;
-    padding-top: 16px;
-  }
-  .skills-box3 img {
-    width: 37px;
-    height: auto;
-    margin-top: 2px;
-    margin-left: -5px;
-  }
-  .skills-box4 img {
-    width: 45px;
-    height: auto;
-    margin-top: 2px;
-    margin-left: -5px;
-  }
-  .skills-box5 img {
-    height: auto;
-    width: 41px;
-    margin-top: 2px;
-    margin-left: -1px;
-  }
-  .skills-naiyou1::before {
-    bottom: 11px;
-  }
-  .skills-naiyou1::after {
-    bottom: 3px;
-  }
-    
+   
     .skills-track {
         font-size: 15px;
         padding-top: 45px;
@@ -1374,7 +1317,7 @@ body{
     }
 
     .skills{
-        background: url(../2x/sukiru-haikei-sp.png);
+        background: url(../2x/top-skiru-sp.png);
     }
     .skills-mini{
         font-size: 16px;
@@ -1385,8 +1328,87 @@ body{
         font-size: 16px;
         padding-top: 25px;
         padding-left: 27px;
-        padding-top: 10px;
+        padding-top: 15px;
     }
+
+    .skills-matome1{
+        display: grid;
+        gap: 10px;
+        justify-content: center;
+    }
+    .skills-matome2{
+        display: grid;
+        gap: 10px;
+        justify-content: center;
+    }
+    .skills-box{
+        width: 250px;
+        height: 86px;
+        margin-top: 10px;
+    }
+    .skills-sikakuaikonn{
+        width: 57px;
+        height: 57px;
+    }
+    .skills-aikonn{
+        font-size: 30px;
+        padding-top: 14px;
+    }
+    .skills-naiyou1 {
+        font-size: 17px;
+        padding-top: 30px;
+        padding-left: 20px;
+    }
+    .skills-box2{
+        width: 250px;
+        height: 86px;
+        margin-top: 0;
+    }
+    .skills-sikakuaikonn2{
+        width: 57px;
+        height: 57px;
+    }
+    .skills-aikonn2{
+        font-size: 30px;
+        padding-top: 14px;
+    }
+    .skills-box3{
+        width: 250px;
+        height: 86px;
+    }
+    .skills-box4{
+        width: 250px;
+        height: 86px;
+        margin-top: 0;
+    }
+    .skills-box5{
+        width: 250px;
+        height: 86px;
+        margin-top: 0;
+    }
+    .skills-box3 img{
+        width: 59px;
+        height: 57px;
+        margin-top: 3px;
+        margin-left: -6px;
+    }
+    .skills-box4 img {
+        width: 70px;
+        height: 68px;
+        margin-left: -5px;
+    }
+    .skills-box5 img {
+        width: 68px;
+        height: 59px;
+    }
+    .skills-naiyou1::after{
+        width: 6px;
+        height: 16px;
+    }
+    .skills-naiyou1::before{
+        width: 92%;
+    }
+    
 
     
     .contact-track {
@@ -1466,6 +1488,10 @@ body{
         font-size: 6px;
         padding-top: 65px;
     }
+        .work-btnsp:hover{
+            background-color: #ff3d8b;
+            color: #e6e6e6;
+        }
 }
 
 
