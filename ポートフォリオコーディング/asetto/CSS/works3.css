@@ -150,6 +150,11 @@ section img{
     width: 26px;
     height: 16px;
     padding-left: 40px;
+    transition: 0.3s;
+}
+
+.box1 a:hover .yazirusi {
+  transform: translateX(-6px);
 }
 
 .backnaiyou1{

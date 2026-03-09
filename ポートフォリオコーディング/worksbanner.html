@@ -9,8 +9,24 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./asetto/CSS/rest.css">
     <link rel="stylesheet" href="./asetto/CSS/worksbanner.css">
+    <link rel="stylesheet" href="./asetto/CSS/hamburger.css">
 </head>
 <body>
+    <div class="hb-menu">
+      <button class="hb-btn" aria-label="メニューを開く" aria-expanded="false">
+        <span class="hb-label--menu">MENU</span>
+        <span class="hb-label--close">CLOSE</span>
+      </button>
+      <nav class="hb-nav">
+        <ul>
+          <li><a href="index.html#HOME">HOME</a></li>
+          <li><a href="index.html#ABOUT">ABOUT</a></li>
+          <li><a href="index.html#WORKS">WORKS</a></li>
+          <li><a href="index.html#SKILLS">SKILLS</a></li>
+          <li><a href="index.html#CONTACT">CONTACT</a></li>
+        </ul>
+      </nav>
+    </div>
     <header>
         <nav class="side-nav">
             <ul>
@@ -103,6 +119,8 @@
             </div>
         </section>
         <p class="saigo">© ritsu nisizaki</p>
+
+        <script src="./asetto/JS/hamburger.js"></script>
 
 </body>
 </html>

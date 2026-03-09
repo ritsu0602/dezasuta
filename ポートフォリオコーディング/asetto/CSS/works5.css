@@ -131,7 +131,7 @@ section img{
 .work2{
     padding-top: 80px;
     width: 145px;
-    height: 1492px;
+    height: 1602px;
     padding-left: 130px;
 }
 
@@ -150,6 +150,10 @@ section img{
     width: 26px;
     height: 16px;
     padding-left: 40px;
+    transition: 0.3s;
+}
+.box1 a:hover .yazirusi {
+  transform: translateX(-6px);
 }
 
 .backnaiyou1{
@@ -325,7 +329,7 @@ section img{
     .work2{
         padding-top: 35px;
         width: 315px;
-        height: 3241px;
+        height: 3480px;
         padding-left: 0px ;
     }
 

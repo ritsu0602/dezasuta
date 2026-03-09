@@ -1495,3 +1495,80 @@ body{
 }
 
 
+
+/* ============ スクロール拡大アニメーション ============ */
+.fv-scroll-zone {
+  position: relative;
+  height: 300vh;
+}
+
+.fv-scroll-zone > header {
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+}
+
+/* FVをビューポート全体に広げてFV_1を画面中央に置く */
+.fv-scroll-zone .FV {
+  height: 100vh;
+}
+
+/* FV_1：ノイズ画像中心（上40%）に向けてズームイン */
+.FV_1 {
+  transform-origin: 50% 40%;
+  will-change: transform;
+}
+
+/* 黒フェードオーバーレイ（JS で生成） */
+.fv-black-overlay {
+  position: fixed;
+  inset: 0;
+  background: #0f1115;
+  z-index: 20;
+  pointer-events: none;
+  opacity: 0;
+}
+
+/* ABOUTセクション：黒背景の上に重ねて小→大でフェード登場 */
+.about {
+  position: relative;
+  z-index: 25;
+}
+
+.about.about-will-animate {
+  opacity: 0;
+  transform: scale(0.7);
+  transform-origin: center center;
+}
+
+.about.is-visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* about より下のセクションは黒オーバーレイの上に出す */
+.work,
+.skills,
+.contact,
+.saigo {
+  position: relative;
+  z-index: 25;
+}
+
+/* スマホではアニメーション無効 */
+@media (max-width: 768px) {
+  .fv-scroll-zone {
+    height: auto;
+  }
+  .fv-scroll-zone > header {
+    position: static;
+    overflow: visible;
+  }
+  .fv-scroll-zone .FV {
+    height: 475px;
+  }
+  .about.about-will-animate {
+    opacity: 1;
+    transform: none;
+  }
+}
